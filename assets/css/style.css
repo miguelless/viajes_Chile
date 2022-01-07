@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+hr {
+    border: 2px solid rgb(32, 184, 230);
+}
+
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+}
+
+.card img {
+    height: 200px;
+    width: auto;
+}
+.carousel {
+    display: flexbox;
+}

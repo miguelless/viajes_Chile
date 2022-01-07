@@ -4,6 +4,10 @@ body {
 hr {
   border: 2px solid rgb(32, 184, 230);
 }
+.navbar svg {
+    height: 1200px;
+    width: auto;
+}
 
 .navbar {
   position: absolute;
@@ -43,4 +47,5 @@ footer {
 
 #footer_Icons i {
   color: white;
+  margin-left: .5rem;
 }

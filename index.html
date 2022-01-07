@@ -3,6 +3,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/5d46568e83.js" crossorigin="anonymous"></script>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
@@ -12,7 +14,8 @@
   </head>
   <body>
     <!-- star navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
         <a class="navbar-brand" href="#">
           <img src="/assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="">Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,20 +23,21 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#about">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#features">Descatados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
+        </div>
       </nav>
     <!-- end navbar -->
     <!-- star carrousel -->
@@ -60,25 +64,25 @@
       </div>
     <!-- end carrousel-->
     <!-- star header Quien Somos -->
-    <header>
+    <header id="about">
         <h2 class="text-center p-4 text-white">¿Quien Somos?</h2>
-        <hr style="color: aqua;">
+        <hr>
         </header>
         
     <!-- end header Quien Somos -->
     <section id="info">
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
-            <div class="col-4">
-                <img src="" alt="">
+            <div class="col-4" id="description_text">
+                <div class="text-center" id="icons_qSomos"><i class="fas fa-plane fa-2x"></i></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam consectetur adipisci nihil, tempora harum voluptate? Distinctio perspiciatis corrupti rerum hic minima. Consectetur cum delectus explicabo facere optio non laudantium nulla laborum et commodi, consequatur nobis minima deleniti neque porro beatae, ut nemo ipsum repudiandae fuga reprehenderit incidunt nesciunt. Aliquid, quo?</p>
             </div>
-            <div class="col-4">
-                <img src="" alt="">
+            <div class="col-4" id="description_text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam consectetur adipisci nihil, tempora harum voluptate? Distinctio perspiciatis corrupti rerum hic minima. Consectetur cum delectus explicabo facere optio non laudantium nulla laborum et commodi, consequatur nobis minima deleniti neque porro beatae, ut nemo ipsum repudiandae fuga reprehenderit incidunt nesciunt. Aliquid, quo?</p>
-            </div>
-            <div class="col-4">
-                <img src="" alt="">
+                <div class="text-center" id="icons_qSomos"><i class="fas fa-mountain fa-2x"></i></div>
+             </div>
+            <div class="col-4"  id="description_text">
+                <div class="text-center" id="icons_qSomos"><i class="fas fa-route fa-2x"></i></div>  
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam consectetur adipisci nihil, tempora harum voluptate? Distinctio perspiciatis corrupti rerum hic minima. Consectetur cum delectus explicabo facere optio non laudantium nulla laborum et commodi, consequatur nobis minima deleniti neque porro beatae, ut nemo ipsum repudiandae fuga reprehenderit incidunt nesciunt. Aliquid, quo?</p>
             </div>
         </div>
@@ -88,14 +92,16 @@
     </section>
 
     <!-- Star Section Destacados -->
-    <section id="destacados">
+    <section id="features">
+        <h2 class="text-center text-white my-5">Destacados</h2>
+        <hr>
         <div class="container">
         <div class="card-deck">
             <div class="card">
                 <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quis delectus perferendis eum beatae corrupti.</p>
                 </div>
 
         </div>
@@ -103,7 +109,7 @@
             <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aperiam explicabo eligendi consequatur repellat est sapiente quidem, suscipit unde dolore.</p>
             </div>
 
         </div>
@@ -111,7 +117,7 @@
             <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint delectus ratione dicta unde error vel aliquid nulla repellat!</p>
             </div>
 
         </div>
@@ -119,7 +125,7 @@
             <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda facilis quia. Illum modi et dolorum illo consequuntur suscipit ipsum.</p>
             </div>
 
         </div>
@@ -128,6 +134,17 @@
 
     </section>
     <!-- End Section Destacados -->
+    
+    
+    <!-- star section #contact -->
+    <section id="contact">
+        <div data-tf-widget="hCdX8LpQ" data-tf-iframe-props="title=question" style="width:100%;height:400px;"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+
+
+    </section>
+
+    <!-- End section #contact -->
 
     
 

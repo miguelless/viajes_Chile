@@ -11,9 +11,26 @@ hr {
     z-index:10;
     max-width:100%;
 }
+.navbar a {
+    color: white;
+    font-weight: bold;
+}
 
+#description_text {
+    color: white;
+}
+
+#icons_qSomos {
+    background-color: darkcyan;
+    color: darkgray;
+    padding: .3rem;
+}
+
+.card {
+    background-color: turquoise;
+}
 .card img {
-    height: 200px;
+    height: 130px;
     width: auto;
 }
 .carousel {

@@ -36,3 +36,11 @@ hr {
 .carousel {
     display: flexbox;
 }
+
+footer {
+    background-color: turquoise;
+}
+footer i{
+color: white;
+
+}

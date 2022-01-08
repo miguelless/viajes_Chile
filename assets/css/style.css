@@ -8,7 +8,7 @@ hr {
   border: 2px solid rgb(32, 184, 230);
 }
 .carousel-item img {
-    height: 800px;
+    height: 80%;
     width: auto;
 }
 
@@ -18,8 +18,8 @@ hr {
   z-index: 10;
   max-width: 100%;
 }
-.navbar a {
-  color: white;
+.nav-link a {
+  color: white !important;
   font-weight: bold;
 }
 

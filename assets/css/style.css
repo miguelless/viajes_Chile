@@ -1,16 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
 }
 hr {
   border: 2px solid rgb(32, 184, 230);
 }
-.navbar svg {
-    height: 1200px;
+.carousel-item img {
+    height: 800px;
     width: auto;
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 10;
   max-width: 100%;
